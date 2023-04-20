@@ -31,11 +31,18 @@ html, body {
 	 border-radius: 0.75rem;
 }
 
-.list-group-item {
+.list-group-item-enabled {
 	background-color: white; 
 	border-radius: 0.75rem;
 	margin-top: 0.75rem;
 	--bs-list-group-action-hover-bg: #DDDDDD;
+}
+
+.list-group-item-disabled {
+	background-color: #CACACA; 
+	border-radius: 0.75rem;
+	margin-top: 0.75rem;
+	--bs-list-group-action-hover-bg: #A0A0A0;
 }
 
 .btn-custom {
