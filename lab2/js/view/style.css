@@ -1,0 +1,64 @@
+html, body { 
+	background: #212529 !important;
+	height: 100% !important;
+}
+
+.root {
+	--bs-body-font-size: 2rem;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+}
+
+.navbar {
+	--bs-navbar-padding-y: 0.2rem;
+}
+
+.navbar-brand
+{
+  font-size: 2rem;
+}
+
+.dropdown-menu {
+	font-size: 1.1rem;
+	background-color: #191919;
+	--bs-dropdown-spacer: 0.5rem;
+	--bs-dropdown-min-width: 5rem;
+}
+
+.list-group {
+	 border-radius: 0.75rem;
+}
+
+.list-group-item-enabled {
+	background-color: white; 
+	border-radius: 0.75rem;
+	margin-top: 0.75rem;
+	--bs-list-group-action-hover-bg: #DDDDDD;
+}
+
+.list-group-item-disabled {
+	background-color: #CACACA; 
+	border-radius: 0.75rem;
+	margin-top: 0.75rem;
+	--bs-list-group-action-hover-bg: #A0A0A0;
+}
+
+.btn-custom {
+	--bs-btn-color: #9ec5fe;
+	--bs-btn-bg: transparent;
+	--bs-btn-border-color: transparent;
+	--bs-btn-hover-color: #6ea8fe;
+	--bs-btn-hover-bg: transparent;
+	--bs-btn-hover-border-color: transparent;
+	--bs-btn-active-color: #3d8bfd;
+ 	--bs-btn-active-bg: transparent;
+  	--bs-btn-active-border-color: transparent;
+	margin-bottom: 3rem !important;
+	margin-right: 3rem !important;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-primary);
+}
